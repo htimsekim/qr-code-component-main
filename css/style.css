@@ -1,0 +1,39 @@
+:root {
+    --mobile-width: 22rem;
+}
+
+body { 
+    background: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.qrCard {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    max-width: var(--mobile-width);
+    background: white;
+    border-radius: 25px;
+    margin: auto;
+    justify-content: center;
+}
+
+.qrCard img {
+    border-radius: 15px;
+    max-width: var(--mobile-width);
+}
+
+.qrCard h1 {
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-weight: 700;
+}
+
+.qrCard span {
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    padding: 0 3rem;
+}
